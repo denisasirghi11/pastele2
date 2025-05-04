@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .home {
+    background-image: url('https://www.museodelrisorgimentotrieste.it/wp-content/uploads/2025/04/Pasqua-festa-resurrezione-frasi-auguri-uova-pasqua-decorazioni-pasquali-715x477-1.jpg'); /* fundal Paște */
+  }
+  
+  .tradii {
+    background-image: url('https://www.shutterstock.com/image-vector/green-blue-background-delicate-sky-260nw-1318020692.jpg'); /* fundal tradiții */
+  }
+  
+  .mancare {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe0bpzn-6WWRu07HUeAcUU8VUqu_-DzC0mwonezbLjTsVJRe5xeYuXlfpF3-wjkV1YXyo&usqp=CAU'); /* fundal bucătărie */
+  }
+
+  .traditie {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.traditie img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.traditie p {
+  color: #f1f1f1;
+  text-align: left;
+}
+  h1, h2 {
+    color: #ffeaa7;
+  }
+  
+  ul {
+    list-style-type: square;
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background-color: #f6d1c1;
+    color: #2d3436;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #fdcb6e;
+    color: #000;
+  }
+  
+  .dish {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .dish img {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .dish div {
+    text-align: left;
+    
+  }
